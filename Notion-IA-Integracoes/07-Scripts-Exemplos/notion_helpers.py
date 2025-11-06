@@ -421,6 +421,10 @@ def example_usage():
     """
     PAGE_ID = os.getenv("NOTION_PAGE_ID")
     
+    if not PAGE_ID:
+        print("❌ Erro: NOTION_PAGE_ID não configurado no .env")
+        return
+    
     # Exemplo 1: Criar conteúdo estruturado
     blocks = [
         create_heading("Meu Guia de Python", 1),

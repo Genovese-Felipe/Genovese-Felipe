@@ -401,7 +401,7 @@ def create_meeting_template(meeting_type, attendees, main_topics):
     - **Duração**: [A preencher]
     
     ## Agenda
-    {chr(10).join([f'1. {topic}' for i, topic in enumerate(main_topics, 1)])}
+    {chr(10).join([f'{i}. {topic}' for i, topic in enumerate(main_topics, 1)])}
     
     ## Discussões
     ### {main_topics[0]}
