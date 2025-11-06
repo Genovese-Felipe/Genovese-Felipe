@@ -1,0 +1,19 @@
+# Dependências Python para scripts de integração Notion + IA
+
+# Core
+notion-client>=2.2.1
+python-dotenv>=1.0.0
+
+# AI APIs
+groq>=0.4.0
+google-generativeai>=0.3.0
+openai>=1.0.0
+
+# Utilities
+requests>=2.31.0
+schedule>=1.2.0
+
+# Optional (para features específicas)
+# beautifulsoup4>=4.12.0  # Para web scraping
+# pillow>=10.0.0  # Para processamento de imagens
+# selenium>=4.15.0  # Para automação web
