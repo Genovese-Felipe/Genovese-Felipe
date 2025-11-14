@@ -1,0 +1,2 @@
+# comando: 
+Analise e veja se tem ajustes sobre como me ajudar a resolver o teste. Veja se o guia pra me ajudar esta correto, se tem ajustes, e se sim me de o plano passo a passo de como fazer com vc me ajudando por aqui diretamente.
