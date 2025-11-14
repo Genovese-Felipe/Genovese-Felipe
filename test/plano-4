@@ -1,0 +1,31 @@
+Sua pergunta é se o roteiro que criamos para se preparar para a prova está adequado e o que precisa ajustar para usar minha ajuda de forma correta. Analisei novamente os documentos enviados e as orientações da avaliação. Há alguns pontos chave que precisamos ajustar e um plano claro que pode te orientar antes e durante a prova.
+O que dizem as instruções oficiais
+• Objetivo da avaliação: você deve definir 2 – 3 tarefas de engenharia bem delimitadas e conduzir o modelo LLM a resolvê‑las em conversas de um turno cada, avaliando o código e justificando sua nota
+• Tempo e estrutura: a prova dura 1 h 30 min e exige pelo menos 3 turnos independentes. Cada turno é uma tarefa diferente, e não há continuidade entre eles.
+• Uso de IA: é permitido, mas o código gerado e as justificativas devem ser “humanamente plausíveis”, ou seja, você precisa compreender o que a IA propõe, corrigir ou aprimorar e escrever com o seu estilo
+• Qualidade dos prompts: os prompts devem ter escopo reduzido, solução verificável e problema não ambíguo. Bons exemplos incluem refatorar um componente específico ou adicionar uma feature pequena, e os ruins são aqueles vagos ou que exigem grandes reestruturações
+Ajustes necessários no guia
+• Nada de burlar monitoramento: as instruções deixam claro que usar IA é permitido; portanto, não há motivo para esconder isso. Devemos evitar qualquer estratégia de “driblar” o Hubstaff. Use as ferramentas de IA como apoio legítimo, compreendendo e reescrevendo o que gerar.
+• Confirmar o repositório correto: os arquivos de exemplo referem‑se ao AI ChatKit. Se a interface do Labelbox mostrar outro repositório, siga o que a plataforma indicar – isso é o que vale.
+• Enfatizar ética e compreensão: o guia deve reforçar que a IA serve para levantar ideias e revisar código, mas você responde com seu próprio julgamento. É fundamental ler o repositório e entender como os componentes funcionam antes de criticar ou aprovar a solução de um modelo.
+Plano passo a passo (pré‑prova e durante a prova)
+• Preparação antecipada (com minha ajuda aqui)
+• Revisar instruções: releia os pontos principais da prova, como tempo, estrutura de turns e critérios de avaliação
+• Explorar o repositório: abra o AI ChatKit no GitHub e identifique componentes-chave: páginas em frontend/app/chat, hooks de estado (use-chat-store), utilitários, etc. Isso te prepara para avaliar se o modelo mexeu nos lugares certos.
+• Escolher 2 – 3 ideias de tarefas: pense em features pequenas (indicador de “IA digitando”, botão para copiar código, renomear sessão), refatorações isoladas (separar tipos de mensagens) ou testes focados. Esses temas atendem ao requisito de escopo reduzido e solução verificável. Eu posso te ajudar a definir essas tarefas com base no código.
+• Construir prompts de nível profissional (treinando aqui)
+• Use sempre a mesma estrutura: 
+• Título/Objetivo claro e curto.
+• Contexto/porquê – explique o estado atual e o problema para o usuário.
+• Requisitos de UX/UI ou comportamento – descreva o que deve acontecer passo a passo.
+• Restrições técnicas – cite onde a lógica deve ficar (por exemplo, criar um novo hook ou modificar a store) sem prescrever implementação linha a linha.
+• Critérios de aceitação e testes – como você saberá que a tarefa está correta.
+• Eu posso revisar os rascunhos e sugerir melhorias.
+• Treinar a avaliação e a justificativa (simulação comigo)
+• Traga exemplos de respostas de modelos (do Material ou inventados) e pratique: verifique se os arquivos e hooks corretos foram usados, se há tipos consistentes, se o estado global foi atualizado.
+• Em seguida, redija uma justificativa usando a estrutura: (1) declare qual modelo se saiu melhor e por quê; (2) analise o processo do modelo (se investigou o repositório ou “alucinou” nomes); (3) avalie a qualidade e robustez do código; (4) conclua reforçando a aderência ao prompt e aos padrões de engenharia. Eu posso corrigir e sugerir termos técnicos (SOLID, SRP, DRY, testabilidade, acessibilidade etc.) para deixar a justificativa com tom de engenheiro sênior.
+• Check‑list para o dia da prova (sozinho)
+• Início: abra a task e confirme qual repositório será usado.
+• Turno 1 a 3: para cada, escreva o prompt usando o modelo acima; espere a resposta; leia e entenda o código; abra os arquivos modificados para confirmar se as importações e estados estão certos; atribua notas nos eixos da plataforma; escreva a justificativa técnica com 5+ frases.
+• Finalizar: só clique em Submit após completar pelo menos três turns distintos e revisar suas justificativas.
+Seguindo este plano, você aproveita a IA de forma ética e inteligente, cumpre as exigências de escopo e qualidade da avaliação e treina comigo até ficar confiante para executar sozinho.
