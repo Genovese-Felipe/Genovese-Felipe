@@ -1,0 +1,142 @@
+Vamos organizar isso. 😄
+Vou fazer em três partes:
+• O que dizem as instruções oficiais (principalmente sobre AI)
+• O que, do nosso “guia”, está certo e o que precisa de ajuste
+• Um plano passo a passo, com você usando eu aqui no chat antes da prova
+1. O que as instruções realmente pedem
+Pelos arquivos que você mandou, o teste é assim:
+• Codebase principal: AI ChatKit no GitHub (pasonk/ai-chatkit).
+• Você precisa criar 2–3 tarefas de engenharia bem escopadas, cada uma sendo um turno independente (um prompt seu + uma resposta do modelo).
+• Tempo total: 1h30 de avaliação.
+• Você será avaliado em: 
+• qualidade dos prompts,
+• seguir as instruções do projeto,
+• e principalmente qualidade da justificativa (5+ frases, bem técnica).
+Sobre uso de IA:
+• O documento diz claramente que: 
+• Uso de AI é permitido, mas: 
+• não pode ser “identificável” (tipo colar texto obviously-ChatGPT sem adaptar),
+• e as respostas têm que parecer feitas/escritas por você. 
+• Também diz: 
+• Não pode usar IA autônoma e assíncrona para gerar opiniões (ou seja, apertar um botão e aceitar o veredito da IA sem pensar).
+• Mas você pode usar Copilots e assistentes de IA para todas as etapas desde que você acompanhe, entenda e tome as decisões.
+Tem uma linha falando de “use outras ferramentas de dev, não AI, para entender tool calls”, mas logo em seguida o próprio doc libera AI (Copilot/assistentes) se você continuar sendo o cérebro.
+Então o espírito é: IA como apoio, mas você decide, escreve e assume.
+2. O que do guia está certo e o que eu ajustaria
+O que está correto no nosso guia até agora
+• Foco em:
+• entender o repositório (AI ChatKit),
+• escolher 2–3 tarefas pequenas, claras, verificáveis,
+• escrever prompts num “padrão de ouro” (contexto + problema + porquê + requisitos + critérios de aceitação),
+• e fazer justificativas longas, técnicas, bem argumentadas.
+• Ideia de tarefas tipo:
+• nova feature pequena (ex: indicador de “AI está respondendo”),
+• refatoração localizada,
+• ou testes bem focados
+– tudo isso está 100% alinhado com as instruções.
+• Enfatizar:
+• analisar o processo do modelo (Model A vs Model B),
+• verificar se o código faz sentido no repo,
+• e usar linguagem de engenheiro sênior na justificativa (SOLID, SRP, DRY, testabilidade, etc.)
+também está totalmente dentro do que eles querem.
+O que eu ajustaria no plano
+• Repositório: AI ChatKit x beeai-framework
+• As instruções “doc” falam em AI ChatKit como codebase oficial.
+• Um print de tela da instrução menciona “based on this repo: beeai-framework”, mas isso parece ser screenshot de outro projeto usado só como exemplo visual. 
+• Ajuste: no dia do teste, você segue o que estiver escrito na tela do Labelbox (link Git Repo / prompt instructions). Se lá estiver AI ChatKit, é ele. Se aparecer outro repo, você segue aquele.
+→ Ou seja: a verdade final é o que aparece na UI do teste.
+• A parte de “driblar” monitoramento / esconder IA
+• As instruções não dizem que é proibido usar IA; pelo contrário, explicitam que é permitido com condições.
+• Minha sugestão anterior de “usar celular como rascunho, manual typing para parecer humano no Hubstaff, etc.” ficou meio com cara de “hack”.
+• Ajuste forte aqui: 
+• Use IA de forma declaradamente responsável para você mesmo: como apoio de raciocínio, mas sem colar respostas cegamente.
+• Não precisamos pensar em “burlar detecção”; precisamos pensar em entender tudo, adaptar tudo e escrever no seu estilo.
+• Assim você cumpre tanto as regras do projeto quanto a ética geral (você é o autor; a IA é só ferramenta).
+• Como me usar “ao vivo”
+• Tecnicamente, o doc permite AI assistants, mas também fala para não usar AI para “gerar opiniões” de forma autônoma. 
+• Pela segurança/ética, o melhor é: 
+• usar muito a minha ajuda AGORA, no treino,
+• e no dia do teste seguir o processo sozinho (ou com Copilot dentro do VS Code, se quiser), aplicando o que você praticou comigo.
+• Assim você: 
+• respeita totalmente o espírito da avaliação,
+• não depende de mim em tempo real,
+• e ainda assim colhe o máximo ganho do nosso treino.
+3. Plano passo a passo, com você treinando comigo aqui
+Vou montar um plano prático que você pode seguir antes do teste usando este chat, e depois repetir sozinho no dia.
+Fase 1 – Entender 100% o teste (comigo)
+• Relemos juntos as partes críticas das instruções
+• Já fizemos boa parte disso, mas se quiser eu posso extrair e resumir “em forma de checklist” só com: 
+• o que é obrigatório,
+• o que é proibido,
+• o que dá mais pontos.
+• Definir o “formato padrão” de um bom prompt
+• Usaremos sempre essa estrutura: 
+• Título/Feature curta
+• Contexto + problema
+• Requisitos de UI/UX ou de lógica
+• Dicas técnicas leves (sem ditar implementação)
+• Critérios de aceitação + testes / edge cases
+• Definir o “formato padrão” da justificativa
+• Estrutura que você vai decorar: 
+• Tese: qual modelo é melhor e por quê (1 frase forte).
+• Processo: como cada modelo abordou o problema.
+• Qualidade do código: legibilidade, arquitetura, testes, edge cases.
+• Aderência ao prompt e ao repo.
+• Conclusão reforçando sua escolha.
+Se quiser, na próxima mensagem eu posso escrever esses dois templates (prompt + justificativa) em formato que você possa literalmente decorar/adaptar.
+Fase 2 – Explorar o repo e escolher 3 tarefas (treino comigo)
+• Você abre o repositório AI ChatKit no GitHub ou localmente.
+• Você me descreve, por texto, o que vê:
+• por exemplo: “Tem um frontend/app/chat/page.tsx”, “vejo hooks em frontend/hooks/use-chat-store.ts”, etc.
+• Juntos, escolhemos 3 ideias de tarefa, algo como:
+• Turno 1: nova feature pequena (ex: indicador “AI está respondendo” ou outra que você preferir).
+• Turno 2: refatoração localizada (ex: separar componentes de mensagem).
+• Turno 3: testes (ex: testes para um hook ou componente central).
+• Para cada ideia, eu te ajudo a escrever o prompt no padrão 5-partes.
+• Você sempre termina com uma versão que você entende linha por linha.
+Fase 3 – Simular os 3 turnos (mock com minha ajuda)
+Aqui é onde a gente realmente treina.
+Para cada uma das 3 tarefas:
+• Você me manda o prompt como se estivesse na Labelbox.
+• Eu simulo duas respostas de modelo: 
+• uma no estilo “Model A” (direto, gera código logo),
+• outra no estilo “Model B” (mais investigativo ou mais estruturado).
+• Você escolhe qual dos dois seria o “melhor modelo” e escreve uma primeira versão da sua justificativa (do jeito que sair, sem medo).
+• Eu: 
+• reviso,
+• aponto onde pode ficar mais sênior (mais técnico),
+• e reescrevo uma versão “turbinada” para você comparar.
+• Você ajusta para o seu estilo de escrita.
+Se fizermos isso 2–3 vezes, você vai:
+• pegar o jeito de ler respostas ruins/boas,
+• saber exatamente o que comentar,
+• e ter um “reflexo” na hora de escrever justificativa boa rápido.
+Fase 4 – Checklist final para o dia da prova
+No final do treino, vamos ter um checklist curtinho tipo:
+• Entrar na tarefa, ver qual repo aparece (AI ChatKit ou outro) e anotar.
+• Escolher rapidamente 3 tarefas bem escopadas que você já treinou (ou variações delas).
+• Para cada turno: 
+• Escrever prompt usando o modelo 5-partes.
+• Esperar resposta do modelo, ler com calma.
+• Conferir se: 
+• faz sentido no repo,
+• atende ao prompt,
+• tem erros óbvios de arquitetura/edge cases.
+• Preencher os sliders/ratings.
+• Escrever justificativa com 5+ frases, usando o template que treinamos.
+• Antes de apertar “Submit”: 
+• Checar se fez pelo menos 3 turnos.
+• Dar uma passada rápida nas justificativas para ver se estão técnicas e claras.
+Se você topar, o próximo passo prático agora é:
+• Eu te escrevo: 
+• um template de prompt,
+• e um template de justificativa (que você pode adaptar).
+• Depois disso, a gente escolhe a primeira tarefa concreta e faz o Turno 1 simulado aqui comigo.
+Quer que eu já venha na próxima mensagem com esses dois templates prontos?
+
+
+
+
+
+
+
