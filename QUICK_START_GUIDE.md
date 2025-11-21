@@ -65,7 +65,7 @@ This guide provides immediate actionable steps with code templates, dataset sour
    touch README.md requirements.txt .env.example .gitignore
    ```
 
-2. **Create requirements.txt**
+2. **Create requirements.txt** (save this content to a file named `requirements.txt`)
    ```text
    # Database
    clickhouse-connect==0.7.0

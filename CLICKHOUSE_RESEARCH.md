@@ -102,7 +102,7 @@ CREATE TABLE sensor_readings (
     value Float64,
     quality_score Float32
 ) ENGINE = MergeTree()
-PARTITION BY toYYYYMM(timestamp)  -- monthly partitions
+PARTITION BY toYYYYMM(timestamp)  -- Monthly partitions optimal for IoT: balances query performance with partition count. Daily would create too many partitions; yearly would scan too much data.
 ORDER BY (building_id, sensor_type, timestamp)  -- primary key
 TTL timestamp + INTERVAL 2 YEAR;  -- automatic data cleanup
 ```

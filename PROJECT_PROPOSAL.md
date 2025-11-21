@@ -570,7 +570,7 @@ smartbuild-analytics/
 - ✅ Recruiter/client contacts: 3-5 inquiries
 
 ### Learning Outcomes
-- ✅ Mastery of ClickHouse for time-series analytics
+- ✅ Proficiency in ClickHouse for time-series analytics
 - ✅ Production-ready data pipeline implementation
 - ✅ AI/ML model deployment experience
 - ✅ Full-stack data science project completion
