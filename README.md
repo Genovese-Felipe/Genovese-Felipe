@@ -1,441 +1,190 @@
-# ◤ Arte • Sistema • Texto • Atlas de Possibilidades ◢
+# 🚀 Felipe Genovese
 
-> “Escrever forma. Codar ritmo.”  
-> Obra tipográfica feita apenas com Markdown (GFM). Sem JS, sem imagens externas.
+### 🏗️ Data & Product Engineer • 🤖 Applied AI Specialist • 🎓 MIT Candidate
 
----
+<div align="center">
 
-## 0. Prelúdio Cinematográfico — moldura larga
+[![Location](https://img.shields.io/badge/📍-São_Paulo,_Brazil-blue?style=flat-square)](#)
+[![Status](https://img.shields.io/badge/🟢-Available_for_Projects-brightgreen?style=flat-square)](#)
+[![Contact](https://img.shields.io/badge/📧-Contact-red?style=flat-square)](mailto:example@email.com)
 
-```
-╔════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                ║
-║    ▞▚  ARQUITEXTURA by FELIPE GENOVESE                                         ║
-║    ▚▞  Texto como espaço; ritmo como estrutura; produto como narrativa.        ║
-║                                                                                ║
-╚════════════════════════════════════════════════════════════════════════════════╝
-```
+[📧 Email](mailto:example@email.com) • [💼 LinkedIn](https://linkedin.com/in/example) • [🌐 Website](https://example.com)
+
+</div>
 
 ---
 
-## Felipe Genovese — apresentação
+## 👨‍💻 About Me
 
-- Bio: Profissional orientado a valor, combinando dados, design e engenharia para criar produtos que respiram — do experimento ao escala.  
-- Foco: IA aplicada, RAG de precisão, observabilidade de LLM, arquitetura de produto, design de dados.
-- Abordagem: clareza, consistência e composição. Ritmo curto, métricas claras, feedback vivo.
+Value-oriented professional combining data, design, and engineering to create products that breathe—from experiment to scale.
 
----
+Currently focused on **Applied AI, Precision RAG, and LLM Observability** to build robust, data-driven solutions.
 
-## 1. Frisos e Tramas — Biblioteca de padrões
-
-<details open>
-  <summary><b>Friso “maré”</b> • alternância que respira</summary>
-
-```
-░░▒▒▓▓██▓▓▒▒░░  ░░▒▒▓▓██▓▓▒▒░░  ░░▒▒▓▓██▓▓▒▒░░
-```
-</details>
-
-<details>
-  <summary><b>Trama “chevron”</b> • seta contínua</summary>
-
-```
-⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁
-⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁⋀⋁
-```
-</details>
-
-<details>
-  <summary><b>Grade de ruído fino</b> • granulação</summary>
-
-```
-. : . : · : . : · : . : · : . : · : . : · : .
-: . : . : . : . : . : . : . : . : . : . : . :
-```
-</details>
-
-<details>
-  <summary><b>Friso “batimento”</b> • pulso</summary>
-
-```
- ▃▅▇█▇▅▃    ▃▅▇█▇▅▃    ▃▅▇█▇▅▃
-```
-</details>
+**My Approach:** Clarity, consistency, and composition. Short rhythm, clear metrics, live feedback.
 
 ---
 
-## 2. Mosaicos — Variações de grade e composição
+## 🎯 Skills & Expertise
 
-<details open>
-  <summary><b>Quadra 2×2</b> • densidade baixa</summary>
+<table>
+<tr>
+<td width="33%" valign="top">
 
-```
-┌───────────────┬───────────────┐
-│ Sinal         │ Forma         │
-│ ouvir         │ desenhar      │
-├───────────────┼───────────────┤
-│ Sistema       │ Sustentação   │
-│ sincronizar   │ manter        │
-└───────────────┴───────────────┘
-```
-</details>
+**🤖 AI & Data**
+- Precision RAG
+- LLM Observability
+- Data Architecture
+- Product Design
 
-<details>
-  <summary><b>Matriz 5×2</b> • catálogo</summary>
+</td>
+<td width="33%" valign="top">
 
-```
-┌─────────┬─────────┬─────────┬─────────┬─────────┐
-│ Observ. │ Precis. │ Fluxo   │ Qualid. │ Conf.   │
-├─────────┼─────────┼─────────┼─────────┼─────────┤
-│ SLO/SLI │ Re-rank │ CI/CD   │ Testes  │ Canários│
-└─────────┴─────────┴─────────┴─────────┴─────────┘
-```
-</details>
+**🏗️ Engineering**
+- System Design
+- CI/CD
+- Automated Testing
+- Canary Deployments
 
-<details>
-  <summary><b>Vitrine com colchetes</b> • mínima</summary>
+</td>
+<td width="33%" valign="top">
 
-```
-[ Ideia ] — [ Prova ] — [ Produto ] — [ Escala ]
-```
-</details>
+**🛠️ Methodologies**
+- SLO/SLI Monitoring
+- Agile Cycles
+- Data Contracts
+- Continuous Improvement
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 3. Mapas e Esquemas — Profundidade e fluxo sem imagens
+## 🌟 Featured Works
 
-<details open>
-  <summary><b>Perspectiva “escalinata”</b> • degraus de maturidade</summary>
+### 🔍 Telemetry for LLM Apps
+🔗 **Case Study:** [Link](#)
 
-```
-Nível 5 ────────────────█
-          Nível 4 ──────███
-             Nível 3 ───█████
-                Nível 2 ─███████
-                   Nível 1 ─█████████
-```
+Unified cost, latency, quality, and feedback. Observability that speaks the language of product.
+
+`Observability` `LLM` `Product` `Telemetry`
+
+---
+
+### 🧠 Precision RAG
+🔗 **Case Study:** [Link](#)
+
+Curation, re-ranking, and automated evaluation. Consistent grounding at the document level.
+
+`RAG` `AI` `NLP` `Evaluation`
+
+---
+
+### 🏗️ Data Design
+🔗 **Case Study:** [Link](#)
+
+Schema contracts, living documentation, and useful demos.
+
+`Data Contracts` `Documentation` `Data Modeling`
+
+---
+
+## 🏆 Philosophy
+
+<details>
+  <summary><b>• Focus</b></summary>
+
+  > Saying "no" organizes. Saying "yes" orients.
+  > Aligning the possible with the necessary.
 </details>
 
 <details>
-  <summary><b>Árvore de decisão</b> • divergência controlada</summary>
+  <summary><b>• Tactics</b></summary>
 
-```
-(Problema)
-    ├─> [Causa A] ──> (Ação A1) ──> Resultado
-    └─> [Causa B] ──> (Ação B1) ──> Resultado
-```
+  > Clear hypotheses, short cycles, measurable signals.
 </details>
 
 <details>
-  <summary><b>Circuito de valor</b> • loop</summary>
+  <summary><b>• Execution</b></summary>
 
-```
-[Percepção] → [Decisão] → [Ação] → [Métrica]
-     ↑                                   ↓
-     └─────────────── Aprender ──────────┘
-```
-</details>
-
-<details>
-  <summary><b>Mapa orbital 2</b> • dois anéis</summary>
-
-```
-            ( Núcleo )
-      ┌────────┬────────┐
-     UX      Dados     Métrica
-      └────────┴────────┘
-         ( Órbita de Execução )
-```
+  > Rhythm, embedded checks, and continuous improvement.
 </details>
 
 ---
 
-## 4. Tipogramas e Caligramas — Palavra que vira forma
+## 🎨 Explore My Work
 
-<details open>
-  <summary><b>Triplo eixo</b> • DATA • DESIGN • DEPLOY</summary>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```
-  D A T A        D E S I G N        D E P L O Y
-   A T A          E S I G N          E P L O Y
-    T A             S I G              P L O
-     A               I                  L
-```
-</details>
+**🎨 [Markdown Art Studio](MARKDOWN_ART.md)**
+A dedicated repository showcasing typographic art and experimental markdown.
 
-<details>
-  <summary><b>FOCO em funil</b> • convergência</summary>
+**📚 [Knowledge Base](link)**
+Tutorials, best practices, and guides on AI and engineering.
 
-```
-F F F F F F F
- O O O O O O
-  C C C C C
-   O O O O
-    C C C
-     O O
-      •
-```
-</details>
+</td>
+<td width="50%" valign="top">
 
-<details>
-  <summary><b>RITMO em onda</b> • repetição expressiva</summary>
+**💼 [Professional Portfolio](link)**
+In-depth case studies and project documentation.
 
-```
-R I T M O R I T M O R I T M O R I T M O
-```
-</details>
+**🎓 [Academic Research](link)**
+Research and papers in preparation for MIT.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 5. “Motion” sugerido — sem GIF, só cadência textual
+## 📫 Let's Connect
 
-<details open>
-  <summary><b>Fases</b> • de boot a stewardship</summary>
+Interested in **collaborating**, **hiring**, or just **exchanging ideas** on AI and product?
 
-```
-Boot      ░░░░░░░░░░
-Pilot     ███░░░░░░░
-Scale     ██████░░░░
-Harden    █████████░
-Steward   ██████████
-```
-</details>
+<table>
+<tr>
+<td>
 
-<details>
-  <summary><b>Metábulos</b> • microtransições reversíveis</summary>
+**📧 Email**
+[Contact me](mailto:example@email.com)
+⏱️ Avg. Response: < 4 hours
 
-```
-░→▒→▓→█   █→▓→▒→░   ░→▒→▓→█   █→▓→▒→░
-```
-</details>
+</td>
+<td>
 
-<details>
-  <summary><b>BPM textual</b> • tempo e intensidade</summary>
+**💼 LinkedIn**
+[linkedin.com/in/example](https://linkedin.com/in/example)
+⏱️ Avg. Response: < 2 hours
 
-```
-Tempo →   ▏▎▍▌▋▊▉█  Intensidade →   ▏▎▍▌▋▊▉█
-```
-</details>
+</td>
+<td>
 
----
+**🎥 Video Call**
+Schedule via [Calendly](#)
+⏱️ Slots available this week
 
-## 6. Obras de Felipe Genovese — vitrines com narrativa
+</td>
+</tr>
+</table>
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  Obra 01 • “Telemetria para LLM Apps”                        ║
-║  → Custo, latência, qualidade e feedback unificados.         ║
-║    Observabilidade que conversa com produto.                 ║
-╚══════════════════════════════════════════════════════════════╝
-
-╔══════════════════════════════════════════════════════════════╗
-║  Obra 02 • “RAG de Precisão”                                 ║
-║  → Curadoria, re-ranking e avaliação automática.             ║
-║    Grounding consistente em nível de documento.              ║
-╚══════════════════════════════════════════════════════════════╝
-
-╔══════════════════════════════════════════════════════════════╗
-║  Obra 03 • “Design de Dados”                                 ║
-║  → Contratos de esquema, documentação viva, demos úteis.     ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-<details>
-  <summary><b>Galeria minimal</b></summary>
-
-```
-[ Observab. ]—[ Precisão ]—[ Fluxo ]—[ Confiança ]
-```
-</details>
+**🟢 Status:** Available for new projects starting next month.
 
 ---
 
-## 7. Acordeões e Narrativas — dramaturgia textual
-
-<details open>
-  <summary>• Foco</summary>
-
-> Dizer “não” organiza. Dizer “sim” orienta.  
-> Alinhar o possível ao necessário.
-</details>
-
-<details>
-  <summary>• Tática</summary>
-
-> Hipóteses claras, ciclos curtos, sinais mensuráveis.
-</details>
-
-<details>
-  <summary>• Execução</summary>
-
-> Ritmo, checagens embutidas e melhoria contínua.
-</details>
-
-<details>
-  <summary>• Narrativa Crescente</summary>
-
-> 1. Vazio fértil  
->> 2. Sinal detectado  
->>> 3. Forma ensaiada  
->>>> 4. Sistema pulsante  
->>>>> 5. Valor percebido
-</details>
-
----
-
-## 8. Contrastes e Luz — gradações e textura
-
-<details open>
-  <summary><b>Níveis</b> • baixo, médio, alto, misto</summary>
+<div align="center">
 
 ```
-· · · · · · · · · · · · · · · · · · · · · ·
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-███████████████████████████████████████████
-░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░
-```
-</details>
-
-<details>
-  <summary><b>Gradiente textual</b> • sombreado</summary>
-
-```
-░░░▒▒▒▓▓▓████▓▓▓▒▒▒░░░
-```
-</details>
-
-<details>
-  <summary><b>Sombra projetada</b> • offset</summary>
-
-```
-TEXTO
- TEXTO
-  TEXTO
-   TEXTO
-```
-</details>
-
----
-
-## 9. Léxico Visual — ícones semânticos reutilizáveis
-
-<details open>
-  <summary><b>Estados</b></summary>
-
-```
-○ idle   o active   • locked-in
-☐ backlog   ◧ doing   ☑ done
-```
-</details>
-
-<details>
-  <summary><b>Direções</b></summary>
-
-```
-→ avanço   ↔ negociação   ↗ tendência   ↳ consequência   ⟲ reaprender
-```
-</details>
-
-<details>
-  <summary><b>Marcadores</b></summary>
-
-```
-✦ destaque   ⚑ marco   ⌁ risco   ✧ insight   ≡ consistência
-```
-</details>
-
----
-
-## 10. Dashboards de Texto — painéis em puro Markdown
-
-<details open>
-  <summary><b>Progresso por faixa</b></summary>
-
-```
-Pesquisa     ██████░░░░  60%
-Produto      ████░░░░░░  40%
-Plataforma   ███████░░░  70%
-Dados        █████░░░░░  50%
-Observab.    ████████░░  80%
-```
-</details>
-
-<details>
-  <summary><b>Burndown textual</b></summary>
-
-```
-Dia 01: ██████████
-Dia 07: ███████░░░
-Dia 14: █████░░░░░
-Dia 21: ███░░░░░░░
-Dia 28: ██░░░░░░░░
-```
-</details>
-
-<details>
-  <summary><b>Riscos e Sinais</b></summary>
-
-```
-⌁  latência ↑      ✦  feedback útil ↑      ≡  padrão firmado
-```
-</details>
-
----
-
-## 11. Partituras e Tabelas — ritmo editorial
-
-<details open>
-  <summary><b>Tablatura de decisões</b></summary>
-
-```
-| Tempo | Decisão         | Critério     | Sinal        |
-|-------|-----------------|--------------|--------------|
-| T+0   | Problema-alvo   | Dor real     | Conversões   |
-| T+1   | Hipótese        | Falsificável | Métricas     |
-| T+2   | Piloto          | Viável       | Retenção     |
-| T+3   | Escala          | Sustentável  | Margem       |
-```
-</details>
-
-<details>
-  <summary><b>Quadros em série</b></summary>
-
-```
-┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
-│  Sinal       │ │  Forma       │ │  Sistema     │ │  Sustentação │
-│  ouvir       │ │  desenhar    │ │  sincronizar │ │  manter      │
-└──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘
-```
-</details>
-
----
-
-## 12. Manifesto tipográfico
-
-```
-FOCO  RITMO  PROVA
-CLAREZA  CONSISTÊNCIA  COMPOSIÇÃO
+╔═══════════════════════════════════════════════════════════╗
+║  "Writing is form. Coding is rhythm."                     ║
+║                    - Felipe Genovese                      ║
+╚═══════════════════════════════════════════════════════════╝
 ```
 
----
+<sub>⭐ If this profile inspired you, consider starring the projects!</sub><br>
+<sub>🏗️ Data & Product Engineer | 🤖 Applied AI Specialist | 🎓 MIT Candidate</sub><br>
 
-## 13. Assinatura — monograma em caracteres
+![Profile Views](https://komarev.com/ghpvc/?username=Genovese-Felipe&color=blueviolet&style=flat-square)
 
-```
-█▄▀ ▄▀▄ █▀▄ ▄▀▄ █▀
-█ █ █▀█ █▀  █▀█ ▄█
-
-Felipe Genovese — identidade em texto
-```
-
----
-
-## 14. Rodapé — créditos e contatos
-
-- Contato: (adicione seu e-mail)
-- Portfólio: (adicione seu site)
-- LinkedIn: (adicione seu perfil)
-- GitHub: (adicione seu usuário)
-- Licença: CC BY 4.0
-
-<sub>Esta é uma instalação tipográfica em Markdown. Fork, remix, crédito.</sub>
+</div>
