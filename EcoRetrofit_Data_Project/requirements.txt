@@ -1,0 +1,7 @@
+clickhouse-connect
+pandas
+scikit-learn
+streamlit
+plotly
+numpy
+python-dotenv
